@@ -12,7 +12,6 @@
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
-  * [Video](#video)
   
   
   # Installation
@@ -33,6 +32,3 @@
   
   # Questions
   -You can find me at https://github.com/cadienlake and email me at cadienlake@gmail.com for any further questions.
-
-  # Video
-  -You can find a video demonstration of this readMe generator at the following link: TO BE REPLACED WITH LINK UPON VIDEO COMPLETION.
