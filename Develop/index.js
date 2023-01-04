@@ -38,7 +38,7 @@ const questions = [
   {
     type: "list",
     message: "Choose a license for your application:",
-    choices: ["A", "B", "C", "D"],
+    choices: ["MIT", "none"],
     name: "license",
   },
   {
@@ -63,9 +63,9 @@ function writeToFile(fileName, data) {
 function init() {
   inquirer.prompt(questions).then((response) => {
     console.log(response);
-    writeToFile("README.md", response);
+    writeToFile("generated_README.md", response);
   });
 }
-
+``
 // Function call to initialize app
 init();
